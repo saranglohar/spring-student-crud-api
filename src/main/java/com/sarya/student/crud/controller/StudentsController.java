@@ -54,9 +54,6 @@ public class StudentsController {
 	 * @return Created Students.
 	 * @throws Exception
 	 * 
-	 * @throws IllegalBrainologiEntityException
-	 *             In case of invalid entity passed as argument.
-	 * 
 	 * @throws EntityException
 	 *             In case of any other exception.
 	 */
@@ -74,9 +71,6 @@ public class StudentsController {
 	 *            The id of the Students to be retrieved.
 	 * 
 	 * @return Students with given id. null if not found.
-	 * 
-	 * @throws BrainologiEntityIdException
-	 *             In case of null id passed as an argument.
 	 * 
 	 * @throws EntityException
 	 *             In case of null Students id passed as an argument or any
@@ -99,10 +93,8 @@ public class StudentsController {
 	 * 
 	 * @return Updated Students.
 	 * 
-	 * @throws IllegalBrainologiEntityException
-	 *             In case of invalid entity passed as argument.
 	 * 
-	 * @throws BrainologiEntityIdException
+	 * @throws EntityException
 	 *             In case of null id passed as an argument.
 	 * 
 	 * @throws EntityException
@@ -125,11 +117,8 @@ public class StudentsController {
 	 * 
 	 * @return true if deletion is successful.
 	 * 
-	 * @throws IllegalBrainologiEntityException
+	 * @throws EntityException
 	 *             In case of null entity passed for deletion.
-	 * 
-	 * @throws BrainologiEntityIdException
-	 *             In case of null id passed as an argument.
 	 * 
 	 * @throws EntityException
 	 *             In case of null Students id passed as an argument or any

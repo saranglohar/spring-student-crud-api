@@ -12,7 +12,7 @@ import com.sarya.student.crud.model.Student;
 import com.sarya.student.crud.repo.StudentRepository;
 
 /**
- * @author mayur
+ * @author sarang
  *
  */
 @Service

@@ -15,20 +15,16 @@ public class EntityException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * Constructs a new BrainologiEntityException with {@code null} as its
+	 * Constructs a new EntityException with {@code null} as its
 	 * detail message. The cause is not initialized, and may subsequently be
 	 * initialized by a call to {@link #initCause}.
-	 *
-	 * <p>
-	 * The {@link #fillInStackTrace()} method is called to initialize the stack
-	 * trace data in the newly created BrainologiEntityException.
 	 */
 	public EntityException() {
 		// TODO Auto-generated constructor stub
 	}
 
 	/**
-	 * Constructs a new BrainologiEntityException with the specified detail
+	 * Constructs a new EntityException with the specified detail
 	 * message.
 	 * 
 	 * @param message
@@ -41,7 +37,7 @@ public class EntityException extends Exception {
 	}
 
 	/**
-	 * Constructs a new BrainologiEntityException with the specified cause and a
+	 * Constructs a new EntityException with the specified cause and a
 	 * detail message of {@code (cause==null ? null : cause.toString())} (which
 	 * typically contains the class and detail message of {@code cause}). This
 	 * constructor is useful for throwables that are little more than wrappers
@@ -50,7 +46,7 @@ public class EntityException extends Exception {
 	 *
 	 * <p>
 	 * The {@link #fillInStackTrace()} method is called to initialize the stack
-	 * trace data in the newly created BrainologiEntityException.
+	 * trace data in the newly created EntityException.
 	 *
 	 * @param cause
 	 *            the cause (which is saved for later retrieval by the
@@ -64,16 +60,16 @@ public class EntityException extends Exception {
 	}
 
 	/**
-	 * Constructs a new BrainologiEntityException with the specified detail
+	 * Constructs a new EntityException with the specified detail
 	 * message and cause.
 	 * <p>
 	 * Note that the detail message associated with {@code cause} is <i>not</i>
-	 * automatically incorporated in this BrainologiEntityException's detail
+	 * automatically incorporated in this EntityException's detail
 	 * message.
 	 *
 	 * <p>
 	 * The {@link #fillInStackTrace()} method is called to initialize the stack
-	 * trace data in the newly created BrainologiEntityException.
+	 * trace data in the newly created EntityException.
 	 *
 	 * @param message
 	 *            the detail message (which is saved for later retrieval by the
@@ -90,7 +86,7 @@ public class EntityException extends Exception {
 	}
 
 	/**
-	 * Constructs a new BrainologiEntityException with the specified detail
+	 * Constructs a new EntityException with the specified detail
 	 * message, cause, {@linkplain #addSuppressed suppression} enabled or
 	 * disabled, and writable stack trace enabled or disabled. If suppression is
 	 * disabled, {@link #getSuppressed} for this object will return a
@@ -102,18 +98,6 @@ public class EntityException extends Exception {
 	 * {@code fillInStackTrace} and {@link #setStackTrace(StackTraceElement[])}
 	 * will not set the stack trace. If the writable stack trace is false,
 	 * {@link #getStackTrace} will return a zero length array.
-	 *
-	 * <p>
-	 * Note that the other constructors of {@code Throwable} treat suppression
-	 * as being enabled and the stack trace as being writable. Subclasses of
-	 * {@code Throwable} should document any conditions under which suppression
-	 * is disabled and document conditions under which the stack trace is not
-	 * writable. Disabling of suppression should only occur in exceptional
-	 * circumstances where special requirements exist, such as a virtual machine
-	 * reusing exception objects under low-memory situations. Circumstances
-	 * where a given exception object is repeatedly caught and rethrown, such as
-	 * to implement control flow between two sub-systems, is another situation
-	 * where immutable BrainologiEntityException objects would be appropriate.
 	 *
 	 * @param message
 	 *            the detail message.
